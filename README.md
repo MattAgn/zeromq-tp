@@ -1,6 +1,10 @@
+## Install Python
+
+We'll be using Python for this presentation, if you dont't have it, check this : https://docs.python.org/3/using/windows.html
+
 ## Install the software
 
-### Linux
+### Linux Ubuntu
 
 Run linux_install.sh where you want to install the software
 
@@ -14,4 +18,4 @@ Follow instructions here : http://zeromq.org/docs:windows-installations
 
 ## Install the python library
 
-`pip install pyzmq`
+Run `pip install pyzmq`
