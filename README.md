@@ -10,7 +10,9 @@ Run linux_install.sh where you want to install the software
 
 ### Mac
 
-Just run `brew install zmq`
+Run `brew install zmq`.</br> 
+If you don't have brew, first run : </br>
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ### Windows
 
