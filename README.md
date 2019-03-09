@@ -16,7 +16,7 @@ If you don't have brew, first run : </br>
 
 ### Windows
 
-Follow instructions here : http://zeromq.org/docs:windows-installations
+Follow instructions here : http://zeromq.org/docs:windows-installations (use first link)
 
 ## Install the python library
 
