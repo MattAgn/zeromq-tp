@@ -26,7 +26,7 @@ Run `pip install pyzmq`
 
 # Exercises
 
-## Part 1
+## Part 1 : basic patterns
 
 ### Exercise 3 : workers
 
@@ -38,3 +38,13 @@ Let's suppose we have 3 people : Alice, Bob and Jean.
 
 The task for Bob : get the square of each number Alice sends and transmit it to Jean.</br>
 Bob will take 1 second to compute the square.
+
+## Part 2 : advanced patterns
+
+### Exercise 1 : broker
+
+Let's suppose we run a pizzeria.
+
+- Several clients order 1 pizza randomly from the given list
+- Workers (pizzaiolos) make the pizzas in 5 seconds (they're very good pizzaiolos) and send them back with their price
+- The delivery takes 2 seconds

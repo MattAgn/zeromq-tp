@@ -21,7 +21,6 @@ sender.connect("tcp://localhost:5558")
 # Process tasks forever
 while True:
     s = receiver.recv()
-    # Do the work
 
     # Execute
     result = int(s)**2
