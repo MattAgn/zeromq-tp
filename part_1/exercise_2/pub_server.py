@@ -14,7 +14,7 @@ if len(sys.argv) > 1:
 context = zmq.Context()
 
 #	TODO :  Create a publisher with the socket type zmq.PUB.
-#			Bind it to : tcp://*:port ( use the variable port to complete the adress ).
+#		Bind it to : tcp://*:port ( use the variable port to complete the adress ).
 
 
 
