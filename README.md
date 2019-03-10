@@ -72,3 +72,5 @@ Let's suppose we run a pizzeria.
 - The delivery takes 2 seconds
 
 Try to run 4 clients and 2 workers and see what happens
+
+
