@@ -27,7 +27,7 @@ print "Collecting updates from weather server..."
 #	TODO :  Subscribe to a topic ( a zip code : integer) 
 #			use the zip code to filter the messages, for that use the function setsockopt.
 
-#	TODO :  get the topic and the data of the filtered messages received,
-#			print it, then calculate the average total value received over the 5 updates and print it.
+#	TODO :  get the topic and the data of the filtered messages received, 
+#			print it, then calculate the average total value received and print it.
 
       
