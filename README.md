@@ -24,23 +24,31 @@ Download first package here : https://github.com/zeromq/pyzmq/downloads
 
 Run `pip install pyzmq`
 
+# Useful links
+
+Here is a detailed guide for zero-mq : http://zguide.zeromq.org/page:all</br>
+
+Here are the Python docs for zero-mq : https://pyzmq.readthedocs.io/en/latest/api/zmq.html
+
 # Exercises
 
 ## Part 1 : basic patterns
+
 ### Exercise 1 : basics client/server
+
 The goal of this exercise is to use the basic functions of zeroMQ sockets to send and receive a hello world message.
 
-The client creates a socket of its own and connect it to the local host address via the port 5555, then sends request messages wait each time for a response.
+The client creates a socket and connect it to the local host address via the port 5555, then sends 10 "Hello world" request messages and wait each time for a response.
 
-The server creates a socket and binds it to the incoming connections via the port 5555, then waits for messages to arrive, for each message it receives it sends back a hello world response message.
+The server creates a socket and binds it to the incoming connection via the port 5555, then waits for messages to arrive, for each message it receives it sends back a hello world response message.
 
 ### Exercise 2 : basiscs publisher/subscriber
-The goal of this exercise is to establish a basic publish/subscribe connection type between a server and a client.
 
-The server receives connections via a socket bound to the port 5555. Generates random numbers to be used as topics and sends messages along 
-with those generated topics. 
+The goal of this exercise is to establish a basic publish/subscribe connection between a server and a client.
 
-The client creates subscribe type sockets and connect them to the corresponding addresses, then filter the received messages from the publishers with a specific topic, then performs some traitement on received informations.  
+The server receives connections via a socket bound to the port 5555. Generates random numbers to be used as topics and sends messages along with those generated topics.
+
+The client creates subscribe type sockets and connect them to the corresponding addresses, then filter the received messages from the publishers with a specific topic, then performs some treatement on the information he received.
 
 ### Exercise 3 : workers
 
@@ -60,7 +68,7 @@ Bob will take 1 second to compute the square.
 Let's suppose we run a pizzeria.
 
 - Several clients order 1 pizza randomly from the given list
-- Workers (pizzaiolos) make the pizzas in 5 seconds (they're very good pizzaiolos) and send them back with their price
+- Workers make the pizzas in 5 seconds (they're very good pizzaiolos) and send them back with their price
 - The delivery takes 2 seconds
 
 Try to run 4 clients and 2 workers and see what happens
