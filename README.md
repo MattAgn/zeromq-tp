@@ -34,6 +34,13 @@ The client creates a socket of its own and connect it to the local host address 
 
 The server creates a socket and binds it to the incoming connections via the port 5555, then waits for messages to arrive, for each message it receives it sends back a hello world response message.
 
+### Exercise 2 : basiscs publisher/subscriber
+The goal of this exercise is to establish a basic publish/subscribe connection type between a server and a client.
+
+The server receives connections via a socket bound to the port 5555. Generates random numbers to be used as topics and sends messages along 
+with those generated topics. 
+
+The client creates subscribe type sockets and connect them to the corresponding addresses, then filter the received messages from the publishers with a specific topic, then performs some traitement on received informations.  
 
 ### Exercise 3 : workers
 
