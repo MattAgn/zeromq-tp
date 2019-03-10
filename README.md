@@ -73,3 +73,5 @@ Let's suppose we run a pizzeria.
 
 What kind of architecture would you use ?
 Try to run 4 clients and 2 workers and see what happens
+
+
