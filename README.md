@@ -74,4 +74,11 @@ Let's suppose we run a pizzeria.
 What kind of architecture would you use ?
 Try to run 4 clients and 2 workers and see what happens
 
+### Exercise 2 : forwarder
 
+The goal of this exercise is to establish a publish/subscribe connection between subscribers and publishers via a device so that the subscribers won't have to know the addresses of the publishers.
+
+The device will have a frontend and backend sockets, one for the publishers bound to the port 5559, and one for the subscribers bound to the port 55560.
+
+The publishers will connect to the frontend socket and the subscribers to the backend socket.
+The device will route the messages received on the frontend socket from publishers to the subscribers via the backend socket.
