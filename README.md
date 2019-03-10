@@ -67,8 +67,9 @@ Bob will take 1 second to compute the square.
 
 Let's suppose we run a pizzeria.
 
-- Several clients order 1 pizza randomly from the given list
+- Several clients order 1 pizza randomly from a given list
 - Workers make the pizzas in 5 seconds (they're very good pizzaiolos) and send them back with their price
 - The delivery takes 2 seconds
 
+What kind of architecture would you use ?
 Try to run 4 clients and 2 workers and see what happens
