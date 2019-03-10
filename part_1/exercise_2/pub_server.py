@@ -23,5 +23,5 @@ context = zmq.Context()
 
 while True:
 	# TODO : Generate a random number for the topic ( you can use random.randrange ).
-	#		 Send a a message under that topic and sleep for some time ( you can use time.sleep ).
+	#	 Send a message under that topic and sleep for some time ( you can use time.sleep ).
 	
