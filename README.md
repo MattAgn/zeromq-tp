@@ -29,7 +29,9 @@ Run `pip install pyzmq`
 ## Part 1 : basic patterns
 ### Exercise 1 : basics client/server
 The goal of this exercise is to use the basic functions of zeroMQ sockets to send and receive a hello world message.
+
 The client creates a socket of its own and connect it to the local host address via the port 5555, then sends request messages wait each time for a response.
+
 The server creates a socket and binds it to the incoming connections via the port 5555, then waits for messages to arrive, for each message it receives it sends back a hello world response message.
 
 
