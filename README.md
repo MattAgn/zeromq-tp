@@ -28,7 +28,9 @@ Run `pip install pyzmq`
 
 Here is a detailed guide for zero-mq : http://zguide.zeromq.org/page:all</br>
 
-Here are the Python docs for zero-mq : https://pyzmq.readthedocs.io/en/latest/api/zmq.html
+Here are the Python docs for zero-mq : https://pyzmq.readthedocs.io/en/latest/api/zmq.html</br>
+
+Here are tutorials for pyzmq : https://learning-0mq-with-pyzmq.readthedocs.io/en/latest/
 
 # Exercises
 
